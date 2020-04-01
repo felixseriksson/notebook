@@ -8,3 +8,5 @@ def latticepoints(r):
 for n in range(20):
     print(latticepoints(n))
 '''
+
+### Kolla upp Leibniz' Christmas Theorem för beräkning av antal sätt att skriva n som hypotenusa till två heltalskateter
