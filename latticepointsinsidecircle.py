@@ -10,3 +10,5 @@ for n in range(20):
 '''
 
 ### Kolla upp Leibniz' Christmas Theorem för beräkning av antal sätt att skriva n som hypotenusa till två heltalskateter
+### kolla även https://www.youtube.com/watch?v=NaL_Cb42WyY ex faktum att faktor 2 inte skadar eller hjälper,
+### dvs N(5) = N(2*5=10) = N(2*2*5=20) = N(2^k*5)
