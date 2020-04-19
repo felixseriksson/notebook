@@ -32,4 +32,4 @@ def pcombinations(n,k,setting="prod"):
             v *= i[0]**i[1]
         return v
 
-print(pcombinations(1000,4))
+print(pcombinations(100000, 1840))
