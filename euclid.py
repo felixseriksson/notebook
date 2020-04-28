@@ -1,0 +1,1 @@
+# some different variations on euclid's algorithm
