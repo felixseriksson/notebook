@@ -6,6 +6,22 @@ from random import randint
 # so to catch 88 percent of all numbers, it is enough to try to divide them by all numbers in
 # [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
+# integrate known sufficient testing sets:
+# for n < 2047: [2]
+# for n < 1373653: [2, 3]
+# for n < 9080191: [31, 73]
+# for n < 25326001: [2, 3, 5]
+# for n < 3215031751: [2, 3, 5, 7]
+# for n < 4759123141: [2, 7, 61]
+# for n < 1122004669633: [2, 13, 23, 1662803]
+# for n < 2152302898747: [2, 3, 5, 7, 11]
+# for n < 3474749660383: [2, 3, 5, 7, 11, 13]
+# for n < 341550071728321: [2, 3, 5, 7, 11, 13, 17]
+# for n < 3825123056546413051: [2, 3, 5, 7, 11, 13, 17, 19, 23] (Feitsma and Galway)
+# for n < 18446744973709551616 = 2^64: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37] (Feitsma and Galway)
+# for n < 318665857834031151167461: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37] (Sorenson and Webster)
+# for n < 3317044064679887385961981: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41] (Sorenson and Webster)
+
 def binpower(base, e, mod):
     result = 1
     base %= mod
