@@ -15,9 +15,11 @@
 #         print(p)
 
 from itertools import chain, combinations
+
 def powerset(iterable):
+    # to not include empty set, change range to start at 1 instead of 0
     s = list(iterable)
-    return chain.from_iterable(combinations(s, r) for r in range(len(s) + 1))
+    return chain.from_iterable(combinations(s, r) for r in range(0, len(s) + 1))
 
 if __name__ == "__main__":
     for ss in powerset(set([1, 2, 3])):
