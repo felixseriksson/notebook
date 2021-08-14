@@ -8,3 +8,5 @@ Useful and ready to use code for competitive programming
 - \# of integer gridpoints on/in circle (e.g. using Bresenham circle algorithm)
 - Ready to use interactive templates (eg for interactive binary search)
 - Disjoint-set / union-find
+- Rewrite operator parsing / lexing etc (similar to dd1320)
+
